@@ -14,6 +14,8 @@ Watch your custom Sass for changes and compile it to CSS: into package.json: "sa
 For a first compiling: npm run sass
 Then test bootstrap to see if it's working: if everything has worked properly:
 Press Ctrl-C to stop sass
+To get a compressed css file, into package.json add: "sass": "sass --watch ./sass/custom.scss:./css/custom.css --style compressed"
 
+Download Summernote editor from https://summernote.org/
 
 
